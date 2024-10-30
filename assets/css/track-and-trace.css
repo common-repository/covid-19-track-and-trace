@@ -1,0 +1,27 @@
+.yk-tt-invalid {
+  color: red;
+}
+.yk-tt-valid {
+  color: green;
+}
+.yk-tt-form .yk-tt-invalid {
+  border: 1px solid red;
+}
+.yk-tt-form .yk-tt-valid {
+  border: 1px solid green;
+}
+.yk-tt-form-row {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.yk-tt-form-row label {
+  display: block;
+  width: 100%;
+}
+.yk-tt-form-row input {
+  width: 100%;
+}
+.yk-tt-form-row select {
+  color: green;
+  width: 100%;
+}

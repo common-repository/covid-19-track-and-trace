@@ -1,0 +1,468 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Attendance Register\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-02 11:54+0000\n"
+"PO-Revision-Date: 2022-01-02 11:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: track-and-trace.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/admin-pages/data.dashboard.php:8
+#: includes/admin-pages/page.license.php:8
+#: includes/admin-pages/page.settings.php:8
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/admin-pages/data.dashboard.php:19
+msgid "View Entries"
+msgstr ""
+
+#: includes/admin-pages/page.help.php:23 includes/hooks.php:16
+msgid "How to use"
+msgstr ""
+
+#: includes/admin-pages/page.help.php:27
+msgid ""
+"Start by reviewing the settings of this plugin and enable the data fields "
+"you wish each use to complete."
+msgstr ""
+
+#: includes/admin-pages/page.help.php:29
+msgid "View Settings"
+msgstr ""
+
+#: includes/admin-pages/page.help.php:32
+msgid ""
+"Create a page or post where you wish the form to appear, then place the "
+"following shortcode:"
+msgstr ""
+
+#: includes/admin-pages/page.help.php:36
+msgid ""
+"We would recommend creating a page called \"attendance-register\" and "
+"publish. This will give you an easy URL like https://yourwebsite.com/"
+"attendance-register."
+msgstr ""
+
+#: includes/admin-pages/page.help.php:38
+msgid "Now save (or publish) and view the public facing side of the site."
+msgstr ""
+
+#: includes/admin-pages/page.help.php:43
+msgid "Custom modifications / web development"
+msgstr ""
+
+#: includes/admin-pages/page.help.php:51
+msgid "Contact"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:15
+msgid "All database tables have been rebuilt"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:27
+msgid ""
+"One or more database tables are missing for this plugin. They must be "
+"rebuilt if you wish to use the plugin."
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:29
+msgid "Rebuild them now"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:49
+msgid " Settings"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:66
+msgid "Form Fields"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:69
+msgid "Full Name"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:75
+#: includes/admin-pages/page.settings.php:88
+#: includes/admin-pages/page.settings.php:101
+#: includes/admin-pages/page.settings.php:114
+#: includes/admin-pages/page.settings.php:127
+#: includes/admin-pages/page.settings.php:140
+#: includes/admin-pages/page.settings.php:153
+msgid "Yes"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:76
+#: includes/admin-pages/page.settings.php:89
+#: includes/admin-pages/page.settings.php:102
+#: includes/admin-pages/page.settings.php:115
+#: includes/admin-pages/page.settings.php:128
+#: includes/admin-pages/page.settings.php:141
+#: includes/admin-pages/page.settings.php:154
+msgid "No"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:78
+msgid "If enabled, the \"Full Name\" field will be visible on the form."
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:82
+msgid "Set Full Name to display name?"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:91
+msgid ""
+"If enabled and the user is logged in, then set their Full name to their "
+"display name."
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:95
+msgid "Phone Number"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:104
+msgid "If enabled, the \"Telephone number\" field will be visible on the form."
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:108
+msgid "Email Address"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:117
+msgid "If enabled, the \"Email Address\" field will be visible on the form."
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:121 includes/core.php:542
+msgid "Arrival Date"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:130
+msgid "If enabled, the \"Date\" field will be visible on the form."
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:134 includes/core-form.php:112
+#: includes/core.php:543
+msgid "Arrival Time"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:143
+msgid "If enabled, the \"Arrival Time\" field will be visible on the form."
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:147 includes/core-form.php:75
+#: includes/core-form.php:89 includes/core-form.php:96 includes/core.php:545
+msgid "Venue"
+msgstr "读经小组"
+
+#: includes/admin-pages/page.settings.php:156
+msgid ""
+"If enabled, allow the user to enter the venue they are attending. If you "
+"wish to force the venue to a given value, add the argument \"default-venue\" "
+"to the shortcode e.g. [attendance-register default-venue=\"Venue A\"]"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:160
+msgid "Date Format"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:163
+msgid "UK or US?"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:169
+msgid "US"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:170
+msgid "UK"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:176
+msgid "Premium Add on"
+msgstr ""
+
+#: includes/admin-pages/page.settings.php:181
+msgid "Purchase the Premium add-on and get these additional features"
+msgstr ""
+
+# 网站显示名
+#: includes/core-form.php:36 includes/core-form.php:53 includes/core.php:539
+msgid "Name"
+msgstr "昵称"
+
+#: includes/core-form.php:58
+msgid "Telephone number"
+msgstr ""
+
+#: includes/core-form.php:62
+msgid "Email address"
+msgstr ""
+
+#: includes/core-form.php:107
+msgid "Date"
+msgstr ""
+
+#: includes/core-form.php:120 includes/core.php:480
+msgid "Estimated Departure Time"
+msgstr ""
+
+#: includes/core-form.php:128
+msgid "Number of people in your party"
+msgstr ""
+
+#: includes/core-form.php:137
+msgid "Submit your data"
+msgstr "打卡"
+
+#: includes/core-form.php:308
+msgid "Notes"
+msgstr ""
+
+#: includes/core.php:167
+msgid "Please enter your name."
+msgstr ""
+
+#: includes/core.php:172
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/core.php:177
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/core.php:182
+msgid "Please enter a valid venue."
+msgstr ""
+
+#: includes/core.php:197
+msgid "Please enter a date in the following format: "
+msgstr ""
+
+#: includes/core.php:204
+msgid "Please enter an arrival time."
+msgstr ""
+
+#: includes/core.php:209
+msgid "Please enter a departure time."
+msgstr ""
+
+#: includes/core.php:237
+msgid "Done"
+msgstr ""
+
+#: includes/core.php:238
+msgid "Today"
+msgstr ""
+
+#: includes/core.php:388
+msgid "Get the Premium Add-on for "
+msgstr ""
+
+#: includes/core.php:476
+msgid "Force to today's date"
+msgstr ""
+
+#: includes/core.php:476
+msgid "Save the user selecting today's date by forcing the date to be today"
+msgstr ""
+
+#: includes/core.php:477
+msgid "Restrict Venue to a selection (dropdown list)"
+msgstr ""
+
+#: includes/core.php:477
+msgid ""
+"Instead of allowing users to manually enter their venue, provide and "
+"restrict them to dropdown list of venues"
+msgstr ""
+
+#: includes/core.php:478
+msgid "Search and autocomplete"
+msgstr ""
+
+#: includes/core.php:478
+msgid ""
+"If enabled, when typing a user's full name, the plugin will search the "
+"WordPress user table. When a user is selected, the user's email address and "
+"name shall be auto completed"
+msgstr ""
+
+#: includes/core.php:479
+msgid "Telephone number from WooCommerce"
+msgstr ""
+
+#: includes/core.php:479
+msgid "Auto complete telephone number from WooCommerce billing_phone field"
+msgstr ""
+
+#: includes/core.php:480
+msgid "An additional field to specify the estimated departure time"
+msgstr ""
+
+#: includes/core.php:481
+msgid "Number of People in Party"
+msgstr ""
+
+#: includes/core.php:481
+msgid "An additional field to specify the number of users in the party"
+msgstr ""
+
+#: includes/core.php:482
+msgid "Google reCaptcha"
+msgstr ""
+
+#: includes/core.php:482
+msgid "Reduce the risk of Spam form submissions with Google reCaptcha support"
+msgstr ""
+
+#: includes/core.php:483
+msgid "View entries for any day"
+msgstr ""
+
+#: includes/core.php:483
+msgid ""
+"Additional options on the entries page for fetching entries for any given "
+"date"
+msgstr ""
+
+#: includes/core.php:484
+msgid "GDPR: Auto Delete older entries"
+msgstr ""
+
+#: includes/core.php:484
+msgid ""
+"Every day, entries older than x days can be automatically removed form your "
+"database (requires premium version 1.1.3+)"
+msgstr ""
+
+#: includes/core.php:485
+msgid "Export to CSV"
+msgstr ""
+
+#: includes/core.php:485
+msgid "Export your Track and Trace entries to CSV"
+msgstr ""
+
+#: includes/core.php:496
+msgid ""
+"If require plugin modifications to Attendance Register, or need a new plugin "
+"built, or perhaps you need a developer to help you with your website then "
+"please don't hesitate get in touch!"
+msgstr ""
+
+#: includes/core.php:497
+msgid "We provide fixed priced quotes."
+msgstr ""
+
+#: includes/core.php:513
+msgid "Purchase the Track and Trace Premium Add-on and get more features!"
+msgstr ""
+
+#: includes/core.php:515
+msgid ""
+"Purchase the Track and Trace Premium Add-on to get additional features: view "
+"data for any day, view all fields, additional fields, Google reCaptcha and "
+"export to CSV."
+msgstr ""
+
+#: includes/core.php:516
+msgid "Purchase the Premium Add-on"
+msgstr ""
+
+#: includes/core.php:540
+msgid "Email"
+msgstr ""
+
+#: includes/core.php:541
+msgid "Phone"
+msgstr ""
+
+#: includes/core.php:544
+msgid "Departure Time"
+msgstr ""
+
+#: includes/core.php:546
+msgid "Number in Party"
+msgstr ""
+
+#: includes/core.php:547
+msgid "Added By"
+msgstr ""
+
+#: includes/core.php:626
+msgid "Pick a date"
+msgstr ""
+
+#: includes/core.php:639
+msgid "The above table updates every"
+msgstr ""
+
+#: includes/core.php:639
+msgid "minutes"
+msgstr ""
+
+#: includes/hooks.php:22
+msgid "Entries"
+msgstr ""
+
+#: includes/hooks.php:25
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: includes/hooks.php:25
+msgid "Get Premium Add-on"
+msgstr ""
+
+#: includes/hooks.php:28
+msgid "Settings"
+msgstr ""
+
+#: includes/hooks.php:85
+msgid ""
+"There is a new version of the Attendance Tracker Premium plugin! Download it "
+"here"
+msgstr ""
+
+#: includes/shortcode-form.php:27
+msgid "There was an error saving your form! Please try again!"
+msgstr "打卡出错，请重新尝试！"
+
+#: includes/shortcode-form.php:29
+msgid "Your data has been successfully saved. We hope you enjoy your visit."
+msgstr "打卡成功！加油！"
+
+#. Plugin Name of the plugin/theme
+msgid "Attendance Register"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add an Attendance Tracker to your website. There are endless uses whether "
+"it's to register users for a class, a Covid-19 \"Track and Trace\" form for "
+"your visitors, etc - it's quick to setup and start recording attendance. "
+"View and export entries for any given day."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ali Colville"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.YeKen.uk"
+msgstr ""

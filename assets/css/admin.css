@@ -1,0 +1,40 @@
+.yk-tt-hide, .yk-tt-hide-if-admin {
+  display: none !important;
+}
+.yk-tt-disabled *, .yk-tt-disabled-premium *, .yk-tt-plugin-disabled *
+{
+  color: #CCCCCC !important;
+}
+.yk-tt-disabled th::after {
+  content: "\A(Premium version)";
+  color: #ef8988;
+  font-weight: bold;
+  clear: both;
+  width:100%;
+  white-space: pre;
+}
+.yk-tt-advertise-premium .hndle {
+  background-color: #92a8d1;
+  color: #FFFFFF;
+}
+.yk-mt-settings h3 {
+  color: #034f84 !important;
+  font-size: 15px;
+}
+.yk-mt-settings th {
+  font-weight: 400;
+}
+.yk-tt-link-group {
+  padding-top: 10px;
+}
+.yk-tt-selected {
+  background-color: #0A246A !important;
+  color: #ffffff !important;
+}
+.yk-tt-blur {
+  filter:url(#wherearemyglasses);
+  /* ^ for Firefox */
+  -webkit-filter: blur(2px);
+  /* ^ Webkit browsers */
+  filter: blur(2px);
+}
